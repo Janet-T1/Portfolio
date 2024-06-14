@@ -34,8 +34,7 @@ const Contact = () => {
           <span>hello@react.dev</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
-          <span>587-664-0856</span>
+         
         </motion.div>
       </motion.div>
       <div className="formContainer">

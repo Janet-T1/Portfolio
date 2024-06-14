@@ -29,12 +29,12 @@ const slidervariants = {
     
   },
   animate: {
-    x: "-220%",
+    x: "-500%",
     
     transition: {
       repeat:Infinity,
       repeatType:"mirror",
-      duration:20,
+      duration:10,
     }
   },
 };
@@ -64,7 +64,7 @@ const Hero = () => {
       </div>
 
       <motion.div className="slidingTextContainer" variants={slidervariants} initial="initial" animate="animate">
-        Software Engineer • Creative •
+        Diligent • Driven • Dynamic
       </motion.div>
       <div className="imageContainer">
         <img src="/portpic.png"></img>

@@ -16,30 +16,47 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          gap:40px;
+          gap:25px;
+          margin-left:150px; 
 
 
           h2{
-            font-size: 30px;
+            font-size: 25px;
+            margin-top: 50px;
             color: rebeccapurple;
             letter-spacing: 1opx;
           }
 
           h1{
-            font-size: 88px;
+            font-size: 60px;
           }
 
+        
           .buttons{
             button{
               padding: 20px;
               border: 1px solid white;
-              border-radius: 10px;
+              border-radius: 2px;
               background-color: transparent;
               color: white;
               margin-right: 20px;
               cursor: pointer;
-              font-weight: 300;
+              font-weight: 300px;
+              font-size:15px; 
+              
+              &:hover{
+              border:none;
+              background-color: orange;
+              color: linear-gradient(180deg, #0c0c1d, #111132) ;
+
             }
+
+
+          }
+            
+            
+
+           
           }
 
           img{
@@ -53,13 +70,13 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    right:0; 
   }
 
   .slidingTextContainer {
     position: absolute;
-    font-size: 50vh;
-    bottom: -120px;
+    font-size: 40vh;
+    bottom: -60px;
     white-space: nowrap;
     color: #ffffff09;
     width: 50%;
