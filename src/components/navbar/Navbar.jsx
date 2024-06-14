@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="navbar">
             <Sidebar/> 
             <div className="wrapper">
-                <motion.span initial={{opacity:0, scale: 0.5}} animate={{opacity:1, scale: 1}} transition={{duration:0.5}}> Portfolio </motion.span>
+                <motion.span initial={{opacity:0, scale: 0.5}} animate={{opacity:1, scale: 1}} transition={{duration:0.5}}> JANET TSEGAZEAB </motion.span>
                 <div className="social">
                     <a href="https://github.com/Janet-T1" target="_blank" rel="noopener noreferrer"> 
                         <FaGithub size={30} /> 
