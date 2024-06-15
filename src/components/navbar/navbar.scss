@@ -1,25 +1,109 @@
-.navbar{
-    height: 100px; 
+.navbar {
+    height: 110px;
+    // width: 100vw; /* Make the navbar 3/4 of the screen width */
+    max-width: 2580px; /* Set the max-width for large screens */
+    margin: 0 auto; /* Center the navbar horizontally */
+    display: flex; /* Make navbar a flex container */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px;
+}
 
-    .wrapper{
-        max-width: 1366px; 
-        margin-left: 150px; 
-        margin-right: 100px; 
+.nav-wrapper {
+    width: 100%; /* Make the wrapper take the full width of the navbar */
+    max-width: 1366px;
+    padding-left: 150px; /* Use padding instead of margin to control spacing */
+    padding-right: 100px; /* Use padding instead of margin to control spacing */
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    height: 80%;
+}
 
-        display: flex; 
-        align-items: center; 
-        color: white; 
-        justify-content: space-between;  
-        height: 80% 
+span {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+    .navbar {
+        width: 90vw; /* Make the navbar a bit wider on tablets */
+    }
+
+    .nav-wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100vw; /* Make the navbar full width on smaller screens */
+        padding: 0 20px; /* Add padding for smaller screens */
+    }
+
+    .nav-wrapper {
+        padding-left: 0; /* Remove padding on smaller screens */
+        padding-right: 0; /* Remove padding on smaller screens */
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .nav-wrapper > * {
+        margin-bottom: 10px; /* Add spacing between stacked items */
+    }
+
+    .social {
+        justify-content: center; /* Center social icons */
+        gap: 10px; /* Reduce gap between social icons */
+    }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+    .navbar {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Add padding for very small screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items vertically and horizontally */
+    }
+
+    .nav-wrapper {
+        padding: 0; /* Remove padding for very small screens */
+        text-align: center; /* Center text */
+    }
+
+    .social {
+        flex-direction: column; /* Stack social icons vertically */
+        gap: 5px; /* Reduce gap between social icons */
+    }
+}
+
+/* Media query for extremely small screens */
+@media (max-width: 375px) {
+    .navbar {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Add padding for very small screens */
+        flex-direction: row; /* Stack items vertically */
+        align-items: center; /* Center items vertically and horizontally */
+    }
+
+    .nav-wrapper {
+        font-size: 8px; /* Adjust font size for readability */
+        padding: 0; /* Remove padding for very small screens */
+        text-align: center; /* Center text */
+        flex-direction: row; /* Stack items vertically */
 
     }
 
-    span{
-        font-weight: bold; 
-    }
-
-    .social{
-        display: flex; 
-        gap: 20px; 
+    .social {
+        flex-direction: column; /* Stack social icons vertically */
+        gap: 5px; /* Reduce gap between social icons */
     }
 }
