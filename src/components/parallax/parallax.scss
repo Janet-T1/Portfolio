@@ -8,10 +8,14 @@
     justify-content: center;
     overflow:hidden; 
 
-    h1{
-        font-size:60px;
-         
+    .parallaxText{
+        h1{
+          font-size:60px;  
+        }
+        
     }
+
+   
 
     .mountains{
         background-image: url("/mountains.png");
