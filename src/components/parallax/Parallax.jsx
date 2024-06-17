@@ -17,7 +17,7 @@ const Parallax = () => {
 
             <div className= "parallaxText">
                 <motion.h1 style={{ y: yText }}> Welcome to My World! </motion.h1>
-                <motion.h2 style={{ y: yText }}> Scroll below to know me a little better</motion.h2>
+                <motion.h2 style={{ y: yText }}> Scroll below to get to know me a little better. </motion.h2>
             </div>
             <motion.div className='mountains'></motion.div>
             <motion.div className='planets' style={{ y: yBg}}></motion.div>
