@@ -21,6 +21,7 @@ const Contact = () => {
       variants={variants}
       initial="initial"
       whileInView="animate"
+      style={{ background: "linear-gradient(180deg, #5C5675, #111132)" }}
     >
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let's work together</motion.h1>
