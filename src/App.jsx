@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import AboutMe from "./components/aboutme/AboutMe"; 
+import WorkPara from "./components/workPara/WorkPara";
 
 const App = () => {
   return (
@@ -16,10 +17,19 @@ const App = () => {
   
       <section id="About Me">
         <Parallax />
+        
+      </section>
+
+      <section >
         <div className="AboutMe"  style={{ background: "linear-gradient(180deg,  #111132,  #5C5675)" }}> <AboutMe/>  </div> 
       </section>
 
-      <Portfolio id="My Projects" />
+      <section id="My Projects">
+        <WorkPara /> 
+      </section>
+
+
+      <Portfolio />
 
       <section id="Contact">
         <Contact />

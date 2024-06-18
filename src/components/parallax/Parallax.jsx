@@ -22,6 +22,7 @@ const Parallax = () => {
             <motion.div className='mountains'></motion.div>
             <motion.div className='planets' style={{ y: yBg}}></motion.div>
             <motion.div className='stars'   style={{ x: yBg}}></motion.div>
+            
         </div>
     );
 }
