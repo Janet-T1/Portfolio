@@ -1,49 +1,94 @@
 .contact {
   height: 100%;
   max-width: 1366px;
-  margin: auto;
+  margin: auto; 
   display: flex;
   align-items: center;
-  gap: 50px;
+  justify-content: center; /* Center the content */
+  padding: 100px;
+  gap: 50px; /* Reduced gap */
 
   .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    
+    align-items: flex-start;
+    gap: 10px; /* Reduced gap */
+    padding: 40px;
+
+
+    .together{
+      display: flex;
+      flex-direction: row;
+      gap: 25px; 
+      .lets{
+        font-size: 90px; /* Adjusted font size */
+        line-height: 1.2em;
+        margin: 0;
+        color:white; 
+        font-weight: 100;
+      }
+
+      .work{
+        font-size: 90px; /* Adjusted font size */
+        line-height: 1.2em;
+        margin: 0;
+        color:orange; 
+      }
+    }
 
     h1 {
-      font-size: 100px;
-      line-height: 88px;
+      font-size: 90px; /* Adjusted font size */
+      line-height: 1.2em;
+      margin: 0;
     }
 
     span {
       font-weight: 300;
     }
+
+    .item {
+      margin-top: 20px;
+    }
   }
 
   .formContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
     form {
-      flex: 1;
       display: flex;
       flex-direction: column;
       gap: 20px;
+      width: 100%; /* Ensures form takes available width */
+      max-width: 600px; /* Limits the maximum width */
 
-      input,textarea {
+      input, textarea {
         padding: 20px;
         background-color: transparent;
         border: 1px solid white;
         color: white;
         border-radius: 5px;
+        width: 100%; /* Makes input and textarea take full width */
+        box-sizing: border-box; /* Ensures padding is included in width */
       }
-      button{
-        padding: 20px;
+
+      &::placeholder {
+        color: white; /* Sets the placeholder color to white */
+        opacity: 1;
+      }
+
+      button {
+        padding: 10px;
         border: none;
         background-color: orange;
         cursor: pointer;
-        font-weight: 500;
+        font-weight: bold;
+        font-size: 20px; 
+        width: 100%; /* Makes button take full width */
       }
     }
   }
 }
+

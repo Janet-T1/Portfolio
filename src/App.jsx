@@ -19,11 +19,7 @@ const App = () => {
         <div className="AboutMe"  style={{ background: "linear-gradient(180deg,  #111132,  #5C5675)" }}> <AboutMe/>  </div> 
       </section>
 
-      <section id="My Projects">
-        
-      </section>
-
-      <Portfolio />
+      <Portfolio id="My Projects" />
 
       <section id="Contact">
         <Contact />
