@@ -2,7 +2,7 @@ import React, { useRef, useState} from 'react';
 import "./contact.scss";
 import { motion, useInView} from "framer-motion";
 import emailjs from '@emailjs/browser'
-import { send } from 'vite';
+
 
 const variants = {
   initial: {
@@ -80,7 +80,7 @@ const Contact = () => {
               fill="none"
               initial={{pathLength:0}}
               animate={isInView ? { pathLength: 0 } : { pathLength: 1 }}
-              transition={{duration:2}}
+              transition={{duration:3}}
               />
             </svg>
           </motion.div>
