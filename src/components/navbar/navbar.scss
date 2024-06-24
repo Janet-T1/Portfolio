@@ -1,3 +1,5 @@
+@import "../../app.scss"; 
+
 .navbar {
     height: 110px;
     // width: 100vw; /* Make the navbar 3/4 of the screen width */
@@ -6,105 +8,43 @@
     display: flex; /* Make navbar a flex container */
     align-items: center; /* Center items vertically */
     padding: 0 20px;
-    background-color: rgb(118, 110, 151); ;
-}
-
-.nav-wrapper {
-    width: 100%; /* Make the wrapper take the full width of the navbar */
-    max-width: 1366px;
-    padding-left: 150px; /* Use padding instead of margin to control spacing */
-    padding-right: 100px; /* Use padding instead of margin to control spacing */
-    display: flex;
-    align-items: center;
-    color: white;
-    justify-content: space-between;
-    height: 80%;
-}
-
-span {
-    font-weight: bold;
-}
-
-.social {
-    display: flex;
-    gap: 20px;
-}
-
-/* Media query for tablets */
-@media (max-width: 1024px) {
-    .navbar {
-        width: 90vw; /* Make the navbar a bit wider on tablets */
-    }
+    background-color: rgb(118, 110, 151); 
 
     .nav-wrapper {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .navbar {
-        width: 100vw; /* Make the navbar full width on smaller screens */
-        padding: 0 20px; /* Add padding for smaller screens */
-    }
-
-    .nav-wrapper {
-        padding-left: 0; /* Remove padding on smaller screens */
-        padding-right: 0; /* Remove padding on smaller screens */
-        flex-direction: column; /* Stack items vertically */
-        height: auto; /* Allow height to adjust based on content */
+        width: 100%; /* Make the wrapper take the full width of the navbar */
+        max-width: 1366px;
+        padding-left: 150px; /* Use padding instead of margin to control spacing */
+        padding-right: 100px; /* Use padding instead of margin to control spacing */
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        height: 80%;
     }
 
-    .nav-wrapper > * {
-        margin-bottom: 10px; /* Add spacing between stacked items */
+    span {
+        font-weight: bold;
+    
+        @include mobile {
+            display: none;
+        }
     }
 
     .social {
-        justify-content: center; /* Center social icons */
-        gap: 10px; /* Reduce gap between social icons */
+        display: flex;
+        gap: 20px;
+
+        @include mobile {
+            justify-content: flex-end;
+            gap: 20px;
+            margin-left: 100px; 
+            
+        }
     }
+    
+    
+    
 }
 
-/* Media query for very small screens */
-@media (max-width: 480px) {
-    .navbar {
-        height: auto; /* Allow height to adjust based on content */
-        padding: 10px; /* Add padding for very small screens */
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items vertically and horizontally */
-    }
 
-    .nav-wrapper {
-        padding: 0; /* Remove padding for very small screens */
-        text-align: center; /* Center text */
-    }
 
-    .social {
-        flex-direction: column; /* Stack social icons vertically */
-        gap: 5px; /* Reduce gap between social icons */
-    }
-}
-
-/* Media query for extremely small screens */
-@media (max-width: 375px) {
-    .navbar {
-        height: auto; /* Allow height to adjust based on content */
-        padding: 10px; /* Add padding for very small screens */
-        flex-direction: row; /* Stack items vertically */
-        align-items: center; /* Center items vertically and horizontally */
-    }
-
-    .nav-wrapper {
-        font-size: 8px; /* Adjust font size for readability */
-        padding: 0; /* Remove padding for very small screens */
-        text-align: center; /* Center text */
-        flex-direction: row; /* Stack items vertically */
-
-    }
-
-    .social {
-        flex-direction: column; /* Stack social icons vertically */
-        gap: 5px; /* Reduce gap between social icons */
-    }
-}
