@@ -1,5 +1,5 @@
 import React from 'react';
-import "./aboutme.scss";
+import "./aboutMe.scss";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const AboutMe = () => {
