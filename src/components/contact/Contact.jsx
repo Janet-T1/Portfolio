@@ -61,7 +61,7 @@ const Contact = () => {
           <motion.h1 className='work' variants={variants}>work </motion.h1>
         </motion.div>
         
-        <motion.h1 variants={variants}>together !</motion.h1>
+        <motion.h1 className='togetherText' variants={variants}>together !</motion.h1>
         
         <motion.div className="item" variants={variants}>
           <h2>Email</h2>

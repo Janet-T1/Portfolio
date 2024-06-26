@@ -1,3 +1,4 @@
+@import "../../app.scss"; 
 .portfolio {
     position: relative;
     padding: 20px;
@@ -9,7 +10,13 @@
         padding-top: 50px;
         text-align: center;
         color: orange;
-        font-size: 36px;
+        font-size: clamp(1.5rem, 4vw, 3rem);
+
+        @include mobile {
+            margin: auto;
+            padding-top: 80px;
+            
+        }
 
         .portTitle {
             display: flex;
