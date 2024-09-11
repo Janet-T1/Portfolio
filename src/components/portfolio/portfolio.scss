@@ -90,16 +90,42 @@
                     font-size: 15px; 
                 }
 
-                button {
+                // button {
+                //     background-color: orange;
+                //     border: none; 
+                //     border-radius: 5px; 
+                //     padding: 10px; 
+                //     width: 200px; 
+                //     cursor: pointer; 
+                //     font-weight: bold; 
+                //     font-size: 18px; 
+                  
+                //     &:hover {
+                //       background-color: darkorange; // Change to darker orange on hover
+                //     }
+                //   }
+
+                .button-link {
+                    display: inline-block;
+                    padding: 10px 20px;
                     background-color: orange;
-                    border: none; 
-                    border-radius: 5px; 
-                    padding: 10px; 
-                    width: 200px; 
-                    cursor: pointer; 
-                    font-weight: bold; 
-                    font-size: 18px; 
-                }
+                    color: white;
+                    text-decoration: none;
+                    border: none;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    width: 200px;
+                    padding: 10px;
+                    text-align: center;
+                    cursor: pointer;
+                  
+                    &:hover {
+                      background-color: darkorange; // Darker orange on hover
+                    }
+                  }
+                  
+                  
             }
         }
     }

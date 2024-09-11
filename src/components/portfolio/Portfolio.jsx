@@ -5,32 +5,19 @@ import "./portfolio.scss";
 const items = [
     {
         id: 1, 
-        title: "ClubFinder", 
-        img: "https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        linkUrl: "https://www.janettsegazeab.com/"
+        title: "Resurrection (Tinsae) Church Youth", 
+        img: "tinsae.png",
+        description: "Web platform for Youth Program that can allow congregation members to stream services online, as well as view any lesson plans, photo galleries and keep up to date with upcoming events",
+        linkUrl: "https://tinsae-church.vercel.app/"
     }, 
     {
         id: 2, 
-        title: "Resurrection (Tinsae) Church Youth", 
-        img: "https://images.pexels.com/photos/133699/pexels-photo-133699.jpeg?auto=compress&cs=tinysrgb&w=600", 
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        linkUrl: "https://www.janettsegazeab.com/"
+        title: "Class Explorer", 
+        img: "class.png",
+        description: "A web browser application that allows students from universities to discuss their class in hopes of giving other students a future heads up on what to expect when taking said class.",
+        linkUrl: "https://class-explorer.vercel.app/"
     }, 
-    {
-        id: 3, 
-        title: "Rate My Class", 
-        img: "https://images.pexels.com/photos/356065/pexels-photo-356065.jpeg?auto=compress&cs=tinysrgb&w=600", 
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        linkUrl: "https://www.janettsegazeab.com/"
-    }, 
-    {
-        id: 4, 
-        title: "Shapes Quest", 
-        img: "https://images.pexels.com/photos/1148496/pexels-photo-1148496.jpeg?auto=compress&cs=tinysrgb&w=600", 
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        linkUrl: "https://www.janettsegazeab.com/"
-    }, 
+    
 ]; 
 
 
@@ -59,7 +46,11 @@ const Single = ({item}) => {
                         <p>
                             {item.description}
                         </p>
-                        <button> Visit Site</button>
+                        <a href={item.linkUrl} target="_blank" className="button-link">
+                            Visit Site
+                        </a>
+
+
                     </motion.div>
                 </div>
                 

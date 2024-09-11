@@ -19,8 +19,8 @@ const AboutMe = () => {
                 </div>
                 <div className='textAbout'>
                     <p>
-                        I am currently a third-year Computer Science student with a deep passion for coding. I find programming to be a unique blend of creativity and intellectual challenge, as it involves solving complex problems and devising innovative algorithms. My dedication to education extends beyond my technical pursuits; for the past three years, I have been actively teaching and mentoring youth, and I have accumulated five years of general teaching experience. I am committed to leveraging my technical skills to inspire and equip the next generation, fostering their growth, development, and innovation in the realm of technology. My enthusiasm for learning drives me to explore and master new topics continuously.
-                    </p>
+                        Hey! Welcome to my AboutMe page, where it's all ... well about me!
+                        I am a computer science student with a love for problem solving and coding. My other hobbies include sports such as soccer, rugby, and wrestling. I also enjoy teaching and have been a youth mentor for the past 5 years. I strive to always challenge myself and become a better me every day.                     </p>
                 </div>
             </div>
 
