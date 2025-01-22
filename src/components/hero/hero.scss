@@ -1,101 +1,95 @@
-@import "../../app.scss"; 
+@import "../../app.scss";
 
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #0c0c1d, #111132) ;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
 
+  .wrapper {
+    max-width: 1366px;
+    height: 100%;
+    width: 100%;
 
-    .wrapper{
-      max-width: 1366px;
+    .textContainer {
+      width: 50%;
       height: 100%;
-      width:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 25px;
+      margin-left: 150px;
+
+      @include mobile {
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+      }
+
+      h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        color: rebeccapurple;
+        letter-spacing: 1px;
+      }
+
+      h1 {
+        font-size: 60px;
+
+        @include mobile {
+          font-size: 36px;
+        }
+      }
+
+      .buttons {
+        .button {
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 2px;
+            background-color: transparent;
+            color: white;
+            margin-right: 20px;
+            cursor: pointer;
+            font-weight: 300;
+            font-size: 15px;
+            transition: background-color 0.3s, color 0.3s;
+    
+            &:hover {
+                border: none;
+                background-color: orange;
+                color: #111132; /* The color when the button is hovered */
+            }
+        }
+    }
     
 
-      .textContainer {
-          width: 50%;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          gap:25px;
-          margin-left:150px; 
-
-          @include mobile{
-            height: 50%; 
-            width: 100%; 
-            gap:20px; 
-            align-items:center; 
-            text-align: center; 
-            margin-left:0px; 
-          }
-
-
-          h2{
-            font-size: 25px;
-            margin-top: 50px;
-            color: rebeccapurple;
-            letter-spacing: 1opx;
-          }
-
-          h1{
-            font-size: 60px;
-
-            @include mobile{
-              font-size: 36px;
-            }
-          }
-
-        
-          .buttons{
-            button{
-              padding: 20px;
-              border: 1px solid white;
-              border-radius: 2px;
-              background-color: transparent;
-              color: white;
-              margin-right: 20px;
-              cursor: pointer;
-              font-weight: 300px;
-              font-size:15px; 
-              
-              &:hover{
-              border:none;
-              background-color: orange;
-              color: linear-gradient(180deg, #0c0c1d, #111132) ;
-              }
-
-          }
-            
-           
-          }
-
-          img{
-            width: 50px;
-          }
+      img {
+        width: 50px;
       }
     }
-
+  }
 
   .imageContainer {
     height: 100%;
     position: absolute;
     top: 0;
-    right:0; 
+    right: 0;
 
-    @include mobile{
-      height: 50%;  
-      width: 75%; 
-      top:unset; 
-      bottom: 0; 
-      margin-right: 40px; 
+    @include mobile {
+      height: 50%;
+      width: 75%;
+      top: unset;
+      bottom: 0;
+      margin-right: 40px;
     }
 
-    img{
-      width: 100%; 
-      height: 100%; 
-      object-fit: cover; 
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 

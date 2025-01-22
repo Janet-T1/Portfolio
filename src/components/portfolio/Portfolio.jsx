@@ -5,17 +5,24 @@ import "./portfolio.scss";
 const items = [
     {
         id: 1, 
+        title: "Let Them Cook", 
+        img: "Let Them Cook.png",
+        description: "A cooking instruction wep application that aims to make recipe browsing fast, efficient, and fun!",
+        linkUrl: "https://recipe-website-liard.vercel.app/"
+    }, 
+    {
+        id: 2, 
         title: "Resurrection (Tinsae) Church Youth", 
         img: "tinsae.png",
         description: "Web platform for Youth Program that can allow congregation members to stream services online, as well as view any lesson plans, photo galleries and keep up to date with upcoming events",
         linkUrl: "https://tinsae-church.vercel.app/"
     }, 
     {
-        id: 2, 
-        title: "Class Explorer", 
-        img: "class.png",
-        description: "A web browser application that allows students from universities to discuss their class in hopes of giving other students a future heads up on what to expect when taking said class.",
-        linkUrl: "https://class-explorer.vercel.app/"
+        id: 3, 
+        title: "Club Finder", 
+        img: "Clubfinder.png",
+        description: "A social media platform aimed to connect people through common shared interests.",
+        linkUrl: "https://github.com/Janet-T1/clubFinder"
     }, 
     
 ]; 

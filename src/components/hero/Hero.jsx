@@ -51,14 +51,9 @@ const Hero = () => {
         >
           <motion.h2 variants={textvariants}>COMPUTER SCIENCE MAJOR </motion.h2>
           <motion.h1 variants={textvariants}>
-            Software Engineer & Full Stack Developer
+            Software Engineer & Full Developer
           </motion.h1>
-          <motion.div className="buttons" variants={textvariants}>
-            <motion.button variants={textvariants}>
-              See My Latest Works
-            </motion.button>
-            <motion.button variants={textvariants}>Contact Me</motion.button>
-          </motion.div>
+
           <motion.img variants={textvariants} animate="scrollButton" src="/scroll.png"></motion.img>
         </motion.div>
       </div>
@@ -69,6 +64,13 @@ const Hero = () => {
       <div className="imageContainer">
         <img src="/portpic.png"></img>
       </div>
+
+      <div className="buttons" variants={textvariants}>
+            <button variants={textvariants}>
+              See My Latest Works
+            </button>
+            <button variants={textvariants}>Contact Me</button>
+          </div>
     </div>
   );
 };
