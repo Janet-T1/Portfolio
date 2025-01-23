@@ -19,8 +19,8 @@ const AboutMe = () => {
                 </div>
                 <div className='textAbout'>
                     <p>
-                        Hey! Welcome to my AboutMe page, where it's all ... well about me!
-                        I am a computer science student with a love for problem solving and coding. My other hobbies include sports such as soccer, rugby, and wrestling. I also enjoy teaching and have been a youth mentor for the past 5 years. I strive to always challenge myself and become a better me every day.                     </p>
+                        Hey! My name is Janet. I am currently a Computer Science student at the University of Calgary, with a minor in Statistics. I love building technology that directly impacts people in my community. Outside the class room, I am an undergraduate teaching assistant, a python tutoring mentor, and a youth coordinator. Scroll below to check out my latest projects! 
+                    </p>
                 </div>
             </div>
 

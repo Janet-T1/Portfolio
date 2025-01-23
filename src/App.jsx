@@ -23,7 +23,7 @@ const App = () => {
         
       </section>
 
-      <section >
+      <section id="My Projects">
         <div className="AboutMe"  style={{ background: "linear-gradient(180deg,  #111132,  #5C5675)" }}> <AboutMe/>  </div> 
       </section>
 
@@ -31,7 +31,7 @@ const App = () => {
         <WorkPara /> 
       </section> */}
 
-
+  
       <Portfolio />
 
       <section id="Contact">

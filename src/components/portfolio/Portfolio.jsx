@@ -14,7 +14,7 @@ const items = [
         id: 2, 
         title: "Resurrection (Tinsae) Church Youth", 
         img: "tinsae.png",
-        description: "Web platform for Youth Program that can allow congregation members to stream services online, as well as view any lesson plans, photo galleries and keep up to date with upcoming events",
+        description: "Web platform for a Youth Program that allows members to view any previous lesson plans, photo galleries and keep up to date with upcoming events",
         linkUrl: "https://tinsae-church.vercel.app/"
     }, 
     {

@@ -51,7 +51,7 @@ const Hero = () => {
         >
           <motion.h2 variants={textvariants}>COMPUTER SCIENCE MAJOR </motion.h2>
           <motion.h1 variants={textvariants}>
-            Software Engineer & Full Developer
+            Software Engineer & Full Stack Developer
           </motion.h1>
 
           <motion.img variants={textvariants} animate="scrollButton" src="/scroll.png"></motion.img>

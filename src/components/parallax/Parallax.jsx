@@ -9,8 +9,8 @@ const Parallax = () => {
         offset: ["start start", "end start"]
     });
 
-    const yText = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
+    const yText = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
+    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
     return (
         <div className="parallax" ref={ref} style={{ background: "linear-gradient(180deg, #111132, #766e97)" }}>
