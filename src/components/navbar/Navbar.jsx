@@ -27,9 +27,9 @@ const Navbar = () => {
                         <FaGithub size={40} /> {/* Increase icon size */}
                     </a>
                     <a
-                        href="www.linkedin.com/in/janet-t-379830297"
+                        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
                         target="_blank"
-                        rel="noopener noreferrer"
+                
                     >
                         <FaLinkedin size={40} /> {/* Increase icon size */}
                     </a>
