@@ -27,7 +27,7 @@ const Navbar = () => {
                         <FaGithub size={40} /> {/* Increase icon size */}
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/janet-tsegazeab-379830297/"
+                        href="https://www.linkedin.com/in/janet-t-379830297/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
