@@ -24,6 +24,13 @@ const items = [
         description: "A social media platform aimed to connect people through common shared interests.",
         linkUrl: "https://github.com/Janet-T1/clubFinder"
     }, 
+    {
+        id: 4, 
+        title: "A Family of Buttons", 
+        img: "Flower.png",
+        description: "A fun interaction with a flower button.",
+        linkUrl: "https://cpsc-581-assignment-1-uqgn.vercel.app"
+    }, 
     
 ]; 
 
