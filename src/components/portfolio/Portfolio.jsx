@@ -31,6 +31,13 @@ const items = [
         description: "A fun interaction with a flower button.",
         linkUrl: "https://cpsc-581-assignment-1-uqgn.vercel.app"
     }, 
+    {
+        id: 5, 
+        title: "Interactive 3D Interior Design tool.", 
+        img: "blender.png",
+        description: "LiDAR Spatial Analysis Tool.",
+        linkUrl: "https://github.com/sanskar-ucal/LIDAR-ARKit-Expertise-Sharing-spatial-studio"
+    }
     
 ]; 
 
