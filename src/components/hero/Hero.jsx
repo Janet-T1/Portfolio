@@ -51,7 +51,7 @@ const Hero = () => {
         >
           <motion.h2 variants={textvariants}>COMPUTER SCIENCE MAJOR </motion.h2>
           <motion.h1 variants={textvariants}>
-            Software Engineer & Full Stack Developer
+            Full Stack Developer
           </motion.h1>
 
           <motion.img variants={textvariants} animate="scrollButton" src="/scroll.png"></motion.img>
@@ -59,7 +59,7 @@ const Hero = () => {
       </div>
 
       <motion.div className="slidingTextContainer" variants={slidervariants} initial="initial" animate="animate">
-        Diligent • Driven • Dynamic
+        Diligent • Driven • Determined
       </motion.div>
       <div className="imageContainer">
         <img src="/portpic.png"></img>
