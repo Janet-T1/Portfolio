@@ -19,7 +19,7 @@ const AboutMe = () => {
                 </div>
                 <div className='textAbout'>
                     <p>
-                        Hey! My name is Janet. I am currently a Computer Science student at the University of Calgary, with a minor in Statistics. I love building technology that directly impacts people in my community. Outside the class room, I am an undergraduate teaching assistant, a python tutoring mentor, and a youth coordinator. Scroll below to check out my latest projects! 
+                        Hey! My name is Janet. I am currently a Computer Science student at the University of Calgary, wrapping up my final semester. I love building technology that directly impacts people in my community. Scroll below to check out my latest projects! 
                     </p>
                 </div>
             </div>
